@@ -1,0 +1,13 @@
+<div>
+  {{ number }}
+</div>
+<!-- <div>
+  {{ dailyData.value }}
+</div> -->
+<!-- <div>
+  {{ dailyData.counter.displayVal }}
+</div> -->
+
+<app-number-counter [newVal]="testData.opened"></app-number-counter>
+<input [(ngModel)]="testData.opened" />
+{{ testData.opened }}
